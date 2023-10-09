@@ -1,5 +1,5 @@
 {
-  "name": "@kellyjesse881/empty",
+  "name": "tailwindcss-text-wrap",
   "version": "0.0.4",
   "description": "",
   "private": false,
@@ -8,10 +8,11 @@
   "types": "./dist/index.d.ts",
   "homepage": "",
   "tags": [
-    "typescript"
+    "tailwindcss",
+    "text-wrap"
   ],
   "keywords": [
-    "typescript"
+    "tailwindcss"
   ],
   "scripts": {
     "build": "tsup src/**/*.ts --format cjs,esm --dts",
@@ -26,15 +27,14 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
+    "@effect/docgen": "^0.1.8",
     "husky": "^8.0.3",
+    "tailwindcss": "^3.3.3",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "vitest": "^0.34.2"
   },
-  "dependencies": {
-    "@effect/docgen": "^0.1.1",
-    "@effect/platform": "^0.19.0",
-    "@vercel/kv": "^0.2.3",
-    "effect": "2.0.0-next.45"
+  "peerDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
