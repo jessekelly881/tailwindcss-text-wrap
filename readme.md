@@ -12,3 +12,9 @@ module.exports = {
   ],
 }
 ```
+
+Usage text-{balance | stable | ...}
+
+```html
+<h1 class="text-balance">Title</h1>
+```
