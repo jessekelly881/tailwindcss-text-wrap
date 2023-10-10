@@ -1,5 +1,13 @@
+/**
+ * @since 1.0.0
+ */
+
 import plugin from 'tailwindcss/plugin';
 
+/**
+ * Plugin to add text wrap utilities to tailwindcss
+ * @since 1.0.0
+ */
 export default plugin(
     function({ matchUtilities, theme }) { 
         matchUtilities({
