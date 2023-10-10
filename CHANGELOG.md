@@ -1,5 +1,12 @@
 # @kellyjesse881/empty
 
+## 0.0.6
+
+### Patch Changes
+
+- 8472841: updated readme
+- ed54bb9: init
+
 ## 0.0.4
 
 ### Patch Changes
